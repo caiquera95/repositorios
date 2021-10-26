@@ -1,21 +1,8 @@
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 # Repositórios
-
 
 ###  📱 Layout
 
-### Acesse https://calculatorde-imc.netlify.app/ <br>
+### Acesse https://repositorios-g.netlify.app <br>
 
 <p align="center">
   
@@ -29,6 +16,12 @@ You will also see any lint errors in the console.
   <img alt="Repos3" src="https://ik.imagekit.io/aowlcgixdo/repositorio/capture-20211026-131814_1j5CsSG5s.png?updatedAt=1635266190710" >
   
 </p>
+
+### Rodar o Projeto
+
+### `npm start`
+
+Abrirá em [http://localhost:3000](http://localhost:3000) no seu navegador.
 
 ## 🚀 Tecnologias
 
