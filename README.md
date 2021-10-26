@@ -33,7 +33,7 @@ You will also see any lint errors in the console.
 ## 🚀 Tecnologias
 
 - REACT JS (https://pt-br.reactjs.org/),
-- Rect Toastify (https://fkhadra.github.io/react-toastify/introduction)
+- React Toastify (https://fkhadra.github.io/react-toastify/introduction) - Usada para notificações em caso o campo de busca esteja em branco ou então nenhum repositório seja encontrado.
 - CSS 
 - [JavaScript](https://tableless.github.io/iniciantes/manual/js/)
 
