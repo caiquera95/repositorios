@@ -1,0 +1,133 @@
+/* 
+
+.infos-customers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.infos-customers .labelNome{
+    margin-right: 235px;
+}
+
+.infos-customers label {
+    margin-right: 210px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.infos-customers input {
+    border: 0;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    color: #a1a1a1;
+    font-size: 1em;
+    margin: 10px;
+    padding: 10px;
+    width: 310px;
+}
+
+
+.infos-customers button {
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    background-color: #C83E4D;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+
+.btnOut {
+    position: absolute;
+    right: 0px;
+    margin: 10px;
+    margin-right: 50px;
+}
+
+.btnOut button {
+    border: 0;
+}
+ */
+
+ .customers .labels {
+     margin: 1px;
+     margin: 10px;
+     margin-left: 50px;
+     width: 340px;
+ }
+
+
+ @media screen and (max-width: 768px){
+    .customers .labels {
+        margin: 0px;
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    .customers .center .labels {
+        margin: 1px;
+        padding-left: 20px;
+        width: 330px;
+        color: rgb(110, 110, 110);
+    }
+
+    .customers .center .input {
+        margin: 1px;
+        padding-left: 10px;
+        font-size: .7em;
+        width: 300px;
+        color: rgb(180, 84, 84);
+    }
+  }
+
+ @media screen and (max-width: 414px){
+    .customers .labels {
+        margin: 0px;
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    .customers .center .labels {
+        margin: 1px;
+        padding-left: 20px;
+        font-size: .9em;
+        width: 320px;
+        color: rgb(110, 110, 110);
+    }
+
+    .customers .center .input {
+        margin: 1px;
+        padding-left: 10px;
+        font-size: .7em;
+        width: 300px;
+        color: rgb(180, 84, 84);
+    }
+  }
+
+ @media screen and (max-width: 375px){
+    .customers .center .labels {
+        margin: 1px;
+        padding-left: 10px;
+        font-size: .7em;
+        width: 300px;
+        color: rgb(110, 110, 110);
+    }
+
+  }
+
+
+  @media screen and (max-width: 375px){
+    .customers .center .labels {
+        margin: 1px;
+        margin-left: 40px;
+        padding-left: 10px;
+        font-size: .8em;
+        width: 300px;
+        color: rgb(110, 110, 110);
+    }
+   
+  }
+
+
+

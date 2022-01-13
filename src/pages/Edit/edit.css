@@ -1,0 +1,27 @@
+
+form textarea{
+  height: 105px;
+  resize: none;
+  color: #616161;
+}
+
+ .labels {
+  padding: 2px;
+  margin-left: 20px;
+}
+
+
+.status span{
+  padding: 10px;
+}
+
+.status {
+  color: #616161;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30px;
+  width: 310px;
+}
+
+

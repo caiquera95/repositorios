@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+  form .center .label-avatar{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  form .center .label-avatar input{
+    display: none;
+  }
+  
+  form .center .label-avatar span{
+    z-index: 99;
+    position: absolute;
+    opacity: 0.7;
+    transition: all .5s;
+  }
+  
+  
+  form .center .label-avatar span:hover{
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  
+  .form-profile img{
+    margin-top: -1.5em;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .form-profile div label{
+    margin-bottom: -1em;
+    font-size: .9em;
+  }
+
+  .center .labels {
+    margin-right: 50px;
+    font-size: 18px;
+  }
+  
+  .form-profile input, textarea, select, option{
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #616161;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px;
+    width: 310px;
+  }
+  
+  .form-profile input:disabled{
+    cursor: not-allowed;
+  }
+  
+  .form-profile button{
+    margin-top: 16px;
+    margin-top: 30px;
+    width: 130px;
+    height: 45px;
+    background-color: #C83E4D;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: .9em;
+  }
+
+  .form-profile .labels {
+    color: #616161;
+    margin-bottom: 1px;
+    font-size: 1.2em;
+    padding-right: 230px;
+  }
+
+  .content .btn-Exit2 {
+    padding: 8px 20px;
+    background: none;
+    display: flex;
+    float: right;
+    border-radius: 5px;
+  }
+
+  .content .btn-Exit2 svg { 
+    display: flex;
+    font-size: 45px;
+  }
+
+
+
+@media screen and (min-width:768px){
+  .content .btn-Exit2 svg { 
+    display: none;
+   
+  }
+}
+
+@media screen and (max-width: 425px){
+    form .center .label-avatar{
+      width: 190px;
+      height: 190px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .form-profile img{
+      margin-top: -1.5em;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .form-profile div label{
+      margin-bottom: .1em;
+      margin-right: 30px;
+      font-size: .9em;
+    }
+
+
+    .form-profile button{
+      margin-top: 16px;
+      margin-top: 30px;
+      width: 120px;
+      height: 40px;
+      background-color: #C83E4D;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      font-size: .8em;
+    }
+  
+    .form-profile .labels {
+      color: #616161;
+      margin-bottom: 1px;
+      font-size: 1em;
+      padding-right: 230px;
+    }
+
+    .content .btn-Exit2 svg { 
+      display: flex;
+      color: #1B2132;
+      font-size: 1.8em;
+    }
+
+  }
+
+  @media screen and (max-width: 414px){
+    form .center .label-avatar{
+      width: 190px;
+      height: 190px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .form-profile img{
+      margin-top: -1.5em;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .form-profile div label{
+      margin-bottom: .1em;
+      margin-right: 30px;
+      font-size: .9em;
+    }
+
+
+    .form-profile button{
+      margin-top: 16px;
+      margin-top: 30px;
+      width: 120px;
+      height: 40px;
+      background-color: #C83E4D;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      font-size: .8em;
+    }
+  
+    .form-profile .labels {
+      color: #616161;
+      margin-bottom: 1px;
+      font-size: 1em;
+      padding-right: 230px;
+    }
+
+    .content .btn-Exit2 svg { 
+      display: flex;
+      color: #1B2132;
+      font-size: 1.7em;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+
+    form .center .label-avatar{
+      width: 180px;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .form-profile img{
+      margin-top: -1.5em;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .form-profile div label{
+      margin-bottom: .2em;
+      margin-right: 30px;
+      font-size: .9em;
+    }
+
+
+    .form-profile button{
+      margin-top: 16px;
+      margin-top: 30px;
+      width: 120px;
+      height: 40px;
+      background-color: #C83E4D;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      font-size: .8em;
+    }
+  
+    .form-profile .labels {
+      color: #616161;
+      margin-bottom: 1px;
+      font-size: 1em;
+      padding-right: 230px;
+    }
+
+    .content .btn-Exit2 svg { 
+      display: flex;
+      color: #1B2132;
+      font-size: 1.6em;
+    }
+  }
+
+
+  @media screen and (max-width: 320px){
+    .center .labels {
+      margin-left: 50px;
+      font-size: .9em;
+    }
+    .center input {
+      width: 260px;
+    }
+
+    form .center .label-avatar{
+      width: 120px;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .form-profile img{
+      margin-top: -1.5em;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .form-profile div label{
+      margin-bottom: .2em;
+      margin-right: 30px;
+      font-size: .9em;
+    }
+
+
+    .form-profile button{
+      margin-top: 16px;
+      margin-top: 30px;
+      width: 90px;
+      height: 30px;
+      background-color: #C83E4D;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 600;
+      font-size: .7em;
+    }
+  
+    .form-profile .labels {
+      color: #616161;
+      margin-bottom: 1px;
+      font-size: .8em;
+      padding-right: 230px;
+    }
+
+    .content .btn-Exit2 svg { 
+      display: flex;
+      color: #1B2132;
+      font-size: 1.4em;
+    }
+    
+  }

@@ -1,0 +1,584 @@
+.content-Dashboard {
+    display: flex;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .dashboard span{
+    margin: 2em 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #7a7a7a;
+  }
+
+  .btn-more {
+    float: left;
+    margin-top: 20px;
+    margin-left: 8px;
+    color: #ffffff;
+    background-color: #3a59ad;
+    font-weight: 500;
+    font-size: 1em;
+    width: 150px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: ease-in 0.2s;
+}
+
+.btn-more svg {
+    margin-right: 5px;
+}
+
+.btn-more:hover {
+  background-color: #2854cf;
+  transform: scale(1.1);
+}
+
+.new {
+    float: right;
+    color: #ffffff;
+    background-color: #83bf02;
+    font-weight: 500;
+    font-size: 1.2em;
+    width: 170px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: ease-in 0.2s;
+}
+
+.new svg {
+    margin-right: 5px;
+}
+
+.new:hover {
+    background-color: #5fd204;
+    transform: scale(1.1);
+}
+
+.content-Dashboard .new2 {
+    margin-top: 35px;
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #83bf02;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: ease-in 0.2s;
+}
+
+.content-Dashboard .new2 svg {
+    margin-right: 5px;
+    font-size: 22px;
+}
+
+.new2:hover {
+    background-color: #5fd204;
+    transform: scale(1.1);
+}
+
+table{
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #CCC;
+    color: #7e7e7e;
+    border-collapse: collapse;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    padding: 40px;
+  }
+ 
+  
+  table tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: 1.2em;
+  }
+  
+    table th,
+    table td{
+    padding: .62em;
+    text-align: center;
+  }
+
+  
+  table th{
+    font-size: 1em;
+    color : #4e4e4e;
+    font-weight: 500;
+  }
+      
+  .content table td .action{
+    border:0;
+    padding: 10px;
+    margin-right: 2px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 40px;
+    height: 50%;
+  }
+  
+  table td .action svg{
+    vertical-align: middle;
+  }
+
+  table td span {
+      font-weight: 600;
+  }
+  
+  table td .badge{
+    padding: 3px;
+    border-radius: 3px;
+    color: #FFF;
+  }
+
+@media screen and (max-width: 1024px){
+    .content-Dashboard .new2 {
+      margin-top: 42px;
+      position: absolute;
+      right: 0px;
+      margin-right: 50px;
+      padding: 10px;
+      color: #FFFFFF;
+      background-color: #83bf02;
+      font-size: 1.1em;
+      border: 0;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 148px;
+      height: 48px;
+      font-family: 'Ubuntu', sans-serif;
+      transition: ease-in 0.2s;
+  }
+  
+  .content-Dashboard .new2 svg {
+      margin-right: 5px;
+      font-size: 1.3em;
+  }
+  
+  }
+
+@media screen and (max-width: 768px) {
+
+  .content-Dashboard .new2 {
+    margin-top: 38px;
+    position: absolute;
+    right: 0px;
+    margin-right: 50px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #83bf02;
+    font-size: 1em;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 138px;
+    height: 42px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: ease-in 0.2s;
+}
+
+.content-Dashboard .new2 svg {
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+.new2:hover {
+    background-color: #5fd204;
+    transform: scale(1.1);
+}
+
+  table tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: .9em;
+  }
+    
+  .content table td .action{
+    border:0;
+    padding: 10px;
+    margin-right: 2px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: .8em;
+    width: 30px;
+    height: 50%;
+  }
+  
+  table td .action svg{
+    vertical-align: middle;
+  }
+
+  .btn-more {
+    float: left;
+    margin-top: 20px;
+    margin-left: 8px;
+    color: #ffffff;
+    background-color: #3a59ad;
+    font-weight: 500;
+    font-size: .9em;
+    width: 130px;
+    height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: ease-in 0.2s;
+}
+
+.btn-more svg {
+    margin-right: 5px;
+}
+}
+
+@media screen and (max-width: 425px){
+  .dashboard span{
+    margin: 2em 0;
+    font-weight: 500;
+    font-size: 1em;
+    color: #7a7a7a;
+  }
+
+  table{
+    border: 0;
+  }
+
+  table caption{
+    font-size: 1.3em;
+  }
+
+  table thead{
+    border:none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr{
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .65em;
+    font-size: 1em;
+  }
+
+  table td{
+    border-bottom: 1px solid #DDD;
+    display: block;
+    font-size: .2em;
+    text-align: right;
+  }
+
+  table td::before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child{
+    border-bottom: 0;
+  }
+
+  .content table td .action{
+    border:0;
+    padding: 10px;
+    margin-right: 2px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: .7em;
+    width: 35px;
+    height: 50%;
+  }
+
+  table td .action svg{
+    vertical-align: middle;
+  }
+
+  .content-Dashboard .new2 {
+    margin-top: 22px;
+    position: absolute;
+    right: 0px;
+    margin-right: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #83bf02;
+    font-size: .9em;
+    
+    width: 114px;
+    height: 36px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content-Dashboard .new2 svg {
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+  .btn-more span{
+    font-size: 0;
+}
+
+.btn-more {
+  width: 30px;
+  height: 30px;
+  margin-top: -2px;
+}
+
+.btn-more svg {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+}
+
+@media screen and (max-width: 414px){
+  .content-Dashboard .new2 {
+    margin-top: 20px;
+    position: absolute;
+    right: 0px;
+    margin-right: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #83bf02;
+    font-size: .9em;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: ease-in 0.2s;
+}
+
+.content-Dashboard .new2 svg {
+    margin-right: 5px;
+    font-size: 1.1em;
+}
+
+}
+
+
+@media screen and (max-width: 375px){
+
+  .dashboard span{
+    margin: 2em 0;
+    font-weight: 500;
+    font-size: 1em;
+    color: #7a7a7a;
+  }
+
+  table tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: .8em;
+  }
+
+  .content table td .action{
+    border:0;
+    padding: 10px;
+    margin-right: 2px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 20px;
+    height: 30%;
+  }
+
+
+  .content-Dashboard .new2 {
+    margin-top: 18px;
+    position: absolute;
+    right: 0px;
+    margin-right: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #83bf02;
+    font-size: .8em;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: ease-in 0.2s;
+}
+
+.content-Dashboard .new2 svg {
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+}
+
+@media screen and (max-width: 325px){
+
+  .dashboard span{
+    margin: 2em 0;
+    font-weight: 500;
+    font-size: 1em;
+    color: #7a7a7a;
+  }
+
+  table tr{
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    font-size: .8em;
+  }
+
+  .content table td .action{
+    display: none;
+  }
+
+  .content-Dashboard .new2 {
+    margin-top: 10px;
+    position: absolute;
+    right: 0px;
+    margin-right: 30px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #83bf02;
+    font-size: .8em;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: ease-in 0.2s;
+}
+
+.content-Dashboard .new2 svg {
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+.btn-more span{
+  font-size: 0;
+}
+
+.btn-more {
+width: 30px;
+height: 30px;
+margin-top: -2px;
+}
+
+.btn-more svg {
+margin: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+font-size: .9em;
+}
+
+}
+
+  
+@media screen and (max-width: 600px){
+  table{
+    border: 0;
+  }
+
+  table caption{
+    font-size: 1.3em;
+  }
+
+  table thead{
+    border:none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr{
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .65em;
+    font-size: 1em;
+  }
+
+  table td{
+    border-bottom: 1px solid #DDD;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+
+  table td::before{
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child{
+    border-bottom: 0;
+  }
+
+  .content table td .action{
+    border:0;
+    padding: 10px;
+    margin-right: 2px;
+    align-items: center;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 35px;
+    height: 50%;
+  }
+
+  table td .action svg{
+    vertical-align: middle;
+  }
+
+}
